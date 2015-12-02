@@ -11,7 +11,8 @@ lazy val play_project:Project = project.in(file("play_project")).enablePlugins(P
     "org.webjars" % "jquery" % "2.1.1",
     "org.webjars" % "jquery-ui" % "1.11.2",
     "org.webjars" % "font-awesome" % "4.2.0",
-    "joda-time" % "joda-time" % "2.6"
+    "joda-time" % "joda-time" % "2.6",
+    "com.typesafe.akka" %% "akka-remote" % "2.3.9"
   )
 )
 
